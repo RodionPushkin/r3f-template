@@ -6,7 +6,7 @@ import HomePage from '../pages/HomePage';
 import NotFoundPage from '../pages/NotFoundPage';
 
 const AppRoutes: React.FC = () => (
-  <Router>
+  <Router basename="/r3f-template">
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
